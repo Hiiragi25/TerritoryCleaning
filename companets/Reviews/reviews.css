@@ -1,0 +1,71 @@
+
+.revirews__wrapper {
+    overflow: hidden;
+}
+.revirews__conteiner--wrapper{
+	position: relative;
+	padding: 0 60px;
+	z-index: 40;
+}
+.revirews__cart {
+	display: flex;
+	flex-direction: column;
+	gap:10px;
+	padding: 20px;
+	border-radius: 20px;
+	width: 100%;
+}
+.revirews__cart:nth-child(odd){
+   color: var(--reviews-color-second);
+   background:var(--reviews-bg-second);
+}
+.revirews__block_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.revirews__img {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	object-fit: cover;
+}
+.revirews__name {
+	font-weight: 600;
+}
+
+.revirews__serves {
+	padding-top: 10px;
+	font-weight: 600;
+}
+.revirews__serves_name {
+	font-weight: 500;
+}
+.rewiews__btn {
+	 background: var(--reviews-btn-bg);
+	 width: 45px;
+	 height: 45px;
+	 border-radius: 50%;
+	 color: var( --reviews-btn-color);
+	 font-size: 12px;
+	 margin: -10px;
+}
+.rewiews__pagination {
+		margin-bottom: -60px;
+}
+.rewiews__btn::after {
+	 font-size: 14px;	 
+}
+.rewiews__pagination .swiper-pagination-bullet{
+	background: var( --reviews-pagination-bg);
+	font-size: 20px;  
+}
+@media (max-width: 650px){
+	.revirews__conteiner--wrapper {
+		padding: 0 10px;	
+	}
+	.rewiews__btn {
+		display: none !important;
+	}
+
+}
