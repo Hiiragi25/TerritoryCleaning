@@ -1,0 +1,117 @@
+:root{
+
+
+   /****** LOADER ******/
+     --loader-bg:#003B62;
+
+	/******* HEADER ******/
+
+
+	--logo-text-color:#fff;
+	--info-addres-text-color:#000;
+	--info-item-icons-hover:#E46D0C;
+
+	--nav-bg:#003B62;
+	--nav-link-color:#fff;
+	--nav-link-color-hover:#E46D0C;
+	--nav-info-color:#fff;
+	--header-burger-color:#fff;
+
+
+	/******* ABOUT ********/
+
+	--about-title-color: #003B62;
+	--about-icon-color: #003B62;
+
+	/******* CONTACT ********/
+
+	--contact-inform-bg:#003B62;
+	--contact-inform-color:#fff;
+
+	/******* HERO ********/
+
+	--list-item-color:#000;
+	--list-item-after-color:#003B62;
+
+	--hero-btn-bg: #003B62;
+	--hero-btn-color: #fff;
+	--hero-btn-bg-hover:#fff;
+	--hero-btn-color-hover:#000;
+
+	/******* MESSEGES ********/
+	--messeges-bg:#fff;
+	--messeges-shadow:rgb(0,0,0,0.5);
+	--messeges-text-color:#000;
+	--meseeges-icon-color:#07AF07;
+
+
+
+	/******* MODAL ********/
+	--modal-bg:rgba(0, 0, 0, 0.5);
+	--modal-conteiner-bg:#003B62;
+	--modal-conteiner-color:#ffff;
+	--modal-form-item-btn-bg:#003B62;
+	--modal-form-item-btn-color:#fff;
+
+
+	/*****  QUESTIONS ********/
+
+	--question-bg:#fff;
+	--question-shadow:rgba(0, 0, 0, 0.3);
+	--question-item-bg:#003B62;
+	--question-item-color:#fff;
+	--question-answer-color:#000;
+
+
+
+	/*****  REVIEWS ********/
+	
+	--reviews-bg-second:#003B62;
+	--reviews-color-second:#fff;
+
+	--reviews-btn-bg:#003B62;
+	--reviews-btn-color:#fff;
+
+	--reviews-pagination-bg:#003B62;
+
+
+	/****** SERVES ******/
+	
+	--serves-btn-bg:#fff;
+	--serves-btn-color:#000;
+
+	--serves-btn-bg-second:#003B62;
+	--serves-btn-color-second:#fff;
+
+	--serves-item-bg:#F4E9E9;
+
+	--serves-top-bg:#003B62;
+	--serves-top-color:#fff;
+
+	--serves-cena-color:#003B62;
+
+
+
+	/****** TOP ******/
+
+	--top-bg:#003B62;
+	--top-color:#fff;
+
+	--top-bg-hover: #fff;
+	--top-color-hover:#003B62;
+
+	/****** WORKS ******/
+	
+	--works-btn-bg:#003B62;
+	--works-btn-color:#fff;
+
+
+	/****** FOOTER ******/
+
+	--footer-text-color: #003B62;
+
+
+
+
+
+};
