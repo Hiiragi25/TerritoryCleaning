@@ -1,0 +1,23 @@
+.footer{
+	padding: 50px;
+
+}
+.footer__logo .logo__text{
+	color: var(--footer-text-color);
+	font-weight: 600;
+}
+.footer__conteiner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__img {
+	width: 30px;
+	height: 30px;
+}
+@media(max-width: 650px){
+	.footer__conteiner{
+		flex-direction: column;
+		gap:20px;
+	}
+}
