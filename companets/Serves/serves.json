@@ -1,0 +1,84 @@
+{
+
+  "show" : {
+       
+
+      "1" :{
+         "id":"1",
+         "name":"Уборка снега",
+         "cena":"2000",
+         "img":"Rectangle 6.png",
+         "top":"serves__item--top"
+      },
+      "2":{
+         "id":"2",
+         "name":"Скалывания льда",
+         "cena":"5000",
+         "img":"Rectangle 8.png",
+         "top":""
+      },
+      "3":{
+       
+        "id":"3",
+         "name":"Очитска крыш",
+         "cena":"10000",
+         "img":"Rectangle 7.png",
+         "top":""
+      },
+     "4":{
+       
+        "id":"4",
+         "name":"Уборка снега",
+         "cena":"10000",
+         "img":"Rectangle 6.png",
+         "top":"serves__item--top"
+      }
+
+
+
+  },
+  "summer" : {
+
+        "1" :{
+         "id":"1",
+         "name":"Вывоз мусора",
+         "cena":"2000",
+         "img":"Rectangle 9.png",
+         "top":"serves__item--top"
+      },
+      "2":{
+         "id":"2",
+         "name":"Покос травы",
+         "cena":"5000",
+         "img":"Rectangle 10.png",
+         "top":""
+      },
+      "3":{
+       
+        "id":"3",
+         "name":"Спил деревьев и кустов",
+         "cena":"10000",
+         "img":"Rectangle 11.png",
+         "top":""
+      },
+     "4":{
+       
+        "id":"4",
+         "name":"Вывоз мусора",
+         "cena":"10000",
+         "img":"Rectangle 9.png",
+         "top":"serves__item--top"
+      }
+
+
+  }
+    
+   
+
+
+
+
+
+
+
+}
