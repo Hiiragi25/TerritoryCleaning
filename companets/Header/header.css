@@ -1,1 +1,141 @@
+.header__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.header__nav {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	align-items: center;
+	background:var(--nav-bg);
+	padding: 20px;
+	
+
+
+}
+
+.logo__text {
+	color: var(--logo-text-color);
+	font-weight: bold;
+    font-size: clamp(0.875rem, 0.804rem + 0.36vw, 1.125rem);
+}
+
+.nav__conteiner{
+	display: flex;
+	justify-content: flex-end;
+	gap:20px;
+}
+
+.info__addres {
+	color: var(--info-addres-text-color);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.info__telefon {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color .2s ease;
+
+
+}
+.info__item--icons {
+	display: flex;
+	align-items: center;
+	gap:20px;
+	cursor: pointer;
+}
+.info__item--icons .bx {
+	font-size: 26px;
+	cursor: pointer;
+	transition: color .2s ease;
+}
+.info__item--icons:hover{
+    color: var(--info-item-icons-hover);
+}
+
+.nav__conteiner--mobile {
+	display: flex;
+	flex-direction: column;
+	margin: auto 0;
+	font-size: 20px;
+}
+.nav__link {
+	transition: color .2s ease;
+	color: var(--nav-link-color);
+}
+.nav__link:hover {
+	transition: color .2s ease;
+	color: var(--nav-link-color-hover);
+}
+.nav__info {
+	display: none;
+}
+
+.header__info--content {
+    
+	transition:  all .3s linear;
+ 	
+ }
+.header__burger {
+	font-size: 20px;
+	color: var(--header-burger-color);
+	display: none;
+}
+@media(max-width: 990px){
+	
+	  .nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 270px;
+		height: 100%;
+		transform: translateX(-500px);
+		background: var(--nav-bg);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		opacity: 0;
+		z-index: 10;
+		transition:  all 0.3s linear;	
+
+	}
+	.nav--active{
+		opacity: 1;
+		transform: translateX(0px);
+		transition:  all 0.3s linear;
+	}	
+	.nav__conteiner {
+		display: flex;
+		flex-direction: column;
+		margin: auto 0;
+		font-size: 20px;
+		}
+	.header__burger {
+		display: flex !important;
+		justify-content: flex-end;
+	 }
+	 .header__info--content {
+	 	
+	    position: absolute;
+		transform: translateY(-200px);
+	    transition:  all .10s ease-all;
+		
+	 	
+	 }
+	 .nav__info   {
+		display: flex !important;
+		gap:10px;
+		color: var(--header-burger-color) !important;
+		padding-bottom: 20px;
+		font-size: 20px;
+	}
+}
+
+
 
