@@ -1,0 +1,37 @@
+.messeges {
+	position: fixed;
+	right:  0;
+	bottom: 0;
+	max-width: 400px;
+	height: 150px;
+	border-radius: 15px 0 0 15px;
+	background:var(--messeges-bg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 4px 41px var( --messeges-shadow);
+	border-top: 5px solid #003B62;
+	z-index: 70;
+	transform: translateX(500px);
+	transition:  all 0.2s linear;
+}
+.messeges--show{
+	transition:  all 0.2s linear;
+    transform: translateX(0);
+}
+.messeges__conteiner {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:20px;
+
+}
+.messeges__text {
+	color: var(--messeges-text-color);
+	font-size: clamp(16px, 0.929rem + 0.36vw, 20px);
+}
+.messeges__conteiner .bx {
+    color: var( --meseeges-icon-color);
+    font-size: clamp(20px, 1.071rem + 0.89vw, 30px);
+}
