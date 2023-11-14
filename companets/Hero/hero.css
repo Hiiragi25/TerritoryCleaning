@@ -40,7 +40,7 @@
 	gap:10px;
 }
 .list__item {
-	padding-left: 20px;
+    padding-left: 20px;
     position: relative;
     color: var(--list-item-color);
     font-size: 20px;   
@@ -53,7 +53,7 @@
 	top: 0;
 	left: 0;
 	display: flex;
-	background: url('../Header/img/galga.svg');
+	background: url('../Hero/img/galga.svg');
 	background-position: center;
 	color:var( --list-item-after-color);
 	font-size: 20px;
