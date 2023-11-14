@@ -8,7 +8,7 @@ class Header  {
                <div class="header__conteiner conteiner--second">
            <div class="header__info header__info--content">
              <div class="info__item">
-               <p class="info__addres">Московская область, Чеховский, Подольский, Домодедовский р-ны. </p>
+               <p class="info__addres">г.Москва, ул.Неполбедимых 6 </p>
              </div>
              <div class="info__item info__item--icons">
                 <i class="bx bx-phone-call"></i>
