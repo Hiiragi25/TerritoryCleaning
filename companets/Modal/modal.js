@@ -69,7 +69,7 @@ class Modal  {
       
       openButton.addEventListener('click',()=>{
       	 modal.classList.add('modal--open');
-      	 	console.log('MODAL OPEN'); 
+      	 	
       }) 
    }
    Close(){
@@ -78,7 +78,6 @@ class Modal  {
    	 const modal = document.querySelector('.modal');
 
       closeButton.addEventListener('click',()=>{
-      	console.log('MODAL CLOSE');
       	 modal.classList.remove('modal--open');
       })
    }
@@ -128,7 +127,7 @@ const errorTelefon = document.querySelector('.form__item_erorr--telefon')
 formButton.addEventListener('click',(e)=>{
 	e.preventDefault();
 
-	const userName = document.querySelector("input[name='name']").value.trim();
+    const userName = document.querySelector("input[name='name']").value.trim();
     const userTelefon = document.querySelector("input[name='telefon']").value.trim();
     const telefonCheack =  modal.CheackTelefone(userTelefon,errorTelefon);
     const userCheack = modal.CheackName(userName,errorName)
